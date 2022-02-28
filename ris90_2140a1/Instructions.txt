@@ -1,0 +1,8 @@
+Use any Python IDE and open the "Python" folder. Libraries to install:bs4, nltkSteps to follow:1. Download data and save the following documents in their respective folders:	* Save Docket.trectext in the output (which is located inside the data folder)	* Save Docket.trecweb in the output (which is located inside the data folder)	* Save stop word.txt in the input (which is located inside the data folder)2. Directly run Ô'HW1Main.py' fileNote: 
+1. In HW1Main.py, I have modified code in line 49 & 51 as it was syntactically incorrect.
+      Line 49 
+	Original Code: print("finish " + count + " docs")
+      	Modified Code: print(f'finish {count} docs')
+      Line 51 
+	Original Code: print("Total: " + count + " docs")
+      	Modified Code: print(f'Total : {count} docs')	docset.trec file: Total : 503473 docsindex text corpus running time:  1:20:47.109873docset.trecweb file:Total : 198361 docsindex text corpus running time:  1:00.107864
