@@ -1,4 +1,4 @@
-# Information-Storage-Retrieval
+# Document Collection Processing
 Python version: 3.8.8
 
 External packages: bs4, nltk(used only for the Porter/Snowball stemmers)
